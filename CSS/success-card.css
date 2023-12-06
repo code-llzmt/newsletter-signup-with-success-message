@@ -1,0 +1,42 @@
+
+.success-card{
+    display: none;
+    flex-direction: column;
+
+    justify-content: center;
+
+    max-width: 500px;
+
+    padding: 5%;
+    gap: 2rem;
+
+    border-radius: 2rem;
+
+    background-color: var(--white);
+}
+
+.success-card > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width : 500px){
+    .success-card{
+        width: 100vw;
+        height: 100vh;
+
+        border-radius: 0;
+
+        justify-content: space-evenly;
+
+        position: relative;
+    }
+
+    .success-card > button{
+        position: absolute;
+        bottom: 5%;
+
+        width: 90%;
+    }
+}

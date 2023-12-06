@@ -1,0 +1,130 @@
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    /* colors */
+    --tomato: #ff625787;
+    --error-lightTomato: hsla(4, 100%, 67%, 0.1);
+
+    --darkSlateGrey: #242742;
+    --charcoalGrey: #36384e;
+
+    --grey: #9194a1;
+    --white: #ffffff;
+
+    --linearGradient: linear-gradient(#ff5968, #ff634c);
+
+
+    /* spaces */
+}
+
+body{
+    max-width: 1440px;
+    margin-inline: auto;
+
+    background-color: var(--charcoalGrey);
+}
+
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--darkSlateGrey);
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--darkSlateGrey);
+
+}
+
+.email-address{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--darkSlateGrey);
+}
+
+.message{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--tomato);
+}
+
+.email-field{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--darkSlateGrey);
+    line-height: 1;
+
+    padding: 1.1rem 1.5rem;
+
+    border: 1px solid var(--grey);
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+
+    outline: none;
+}
+
+.email-field:hover{
+    color: var(--darkSlateGrey);
+    border: 1px solid var(--darkSlateGrey);
+}
+
+.email-field::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+
+    padding: 1.25rem 1.5rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    background-color: var(--darkSlateGrey);
+
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(45deg, #ff5968, #ff634c);;
+    box-shadow: 5px 5px 10px var(--tomato);
+}
+
+
+.success-card > span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--darkSlateGrey);
+}
+
+.email-text-content{
+    font-weight: 700;
+}
+
+.icon-list{
+    width: 1.5rem; /* 24px */
+    height: 1.5rem; /* 24px */
+}
+
+.icon-success{
+    width: 4rem; /* 64px */
+    height: 4rem; /* 64px */
+}
